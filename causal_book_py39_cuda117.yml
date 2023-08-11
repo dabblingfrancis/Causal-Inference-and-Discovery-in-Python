@@ -2,8 +2,8 @@ name: causal_book_py39_cuda117
 channels:
   - defaults
   - conda-forge
-  - nvidia
-  - pytorch
+  #- nvidia
+  #- pytorch
 dependencies:
   - pip
   - python=3.9
@@ -12,11 +12,11 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - pytorch
-  - pytorch-cuda=11.7
+  #- pytorch
+  #- pytorch-cuda=11.7
   - pygam
   - lightgbm
-  - transformers
+  #- transformers
   - pip:
     - econml
     - networkx==2.8.7
